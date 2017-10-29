@@ -1,0 +1,37 @@
+/* CSS Reset */
+/* The Reset ---------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,table,
+th,td { margin: 0; padding: 0; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,h1,h2,h3,
+h4,h5,h6,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+body {
+	font-size: 62.5%;
+	background: #fff;
+	font-family: sans-serif;
+	line-height: 22px;
+	color: #444;
+}
+/* -------------------------------------------- */
+
+html, body {
+	position: relative;  /* this is necessary for children to properly use position: absolute */
+}
+
+code, pre { font-family: Consolas, Monaco, "Courier New", Courier, monospace; color: #000; }
+
+pre {
+	background: #f3f3f7;
+	border: 1px solid #dedee3;
+	padding: 11px;
+	font-size: 12px;
+	line-height: 1.3em;
+	margin-bottom: 22px;
+	overflow: auto;
+}
+
+pre a { font-weight: normal; }

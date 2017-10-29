@@ -1,0 +1,207 @@
+/* css reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,table,
+th,td { margin: 0; padding: 0; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,h1,h2,h3,
+h4,h5,h6,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+body {
+	font-size: 62.5%;
+	background: #fff;
+	font-family: sans-serif;
+	line-height: 22px;
+	color: #444;
+}
+/* -------------------------------------------- */
+
+html, body {
+	position: relative;  /* this is necessary for children to properly use position: absolute */
+}
+
+code, pre { font-family: Consolas, Monaco, "Courier New", Courier, monospace; color: #000; }
+
+pre {
+	background: #f3f3f7;
+	border: 1px solid #dedee3;
+	padding: 11px;
+	font-size: 12px;
+	line-height: 1.3em;
+	margin-bottom: 22px;
+	overflow: auto;
+}
+
+pre a { font-weight: normal; }
+
+/* utilities */
+
+body{
+	background: #ECEBE7;
+	font: 12px/1.9 'lora', arial;
+}
+
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.left, #services div, 
+#services div ul li,
+#logo,
+#menu ul li{
+	float:left;
+}
+
+.right, #menu{
+	float:right;
+}
+
+#page{
+
+}
+
+/* header */
+
+#header{
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 10px;
+	overflow:hidden;
+}
+
+#menu
+{
+	
+}
+#menu ul{
+	list-style-type: none
+}
+
+#menu ul li a{
+	color:#ddd;
+	padding-right:3px;
+	display:block;
+	padding:10px 10px;
+}
+
+
+/* wrapper */
+
+#wrapper{
+	margin-top: 5px;
+}
+
+#banner{
+	background-color: #fff;
+	padding: 5px 5px;
+	position: relative;
+}
+
+#banner #ban img{
+	width: 950px;
+
+}
+
+.right-arrow{
+     position:absolute;
+     right:0;
+     bottom:170px;
+     right:10px;
+}
+
+.left-arrow{
+	position:absolute;
+	left:0;
+	bottom:170px;
+	left:10px
+
+}
+
+#services{
+	background-color: #fff;
+	overflow: hidden;
+	margin-top: 5px;
+	 
+}
+ 
+#services div{
+ 	width: 180px;
+ 	margin-right: 2px;
+ 	padding: 5px 5px;
+ }
+
+#services div ul{
+	list-style-type: none;
+}
+
+#services div p{
+	clear:both;
+	color:#A5A5A2;
+	padding-top:8px;
+	font: 12px/1.0 arial;
+}
+
+.sprite{
+	background: url(images/sprite.png) no-repeat;
+	display: block;
+
+}
+
+.web{
+	width: 39px;
+	height: 50px;
+	background-position: 0 16px;
+}
+
+.web1{
+	width: 39px;
+	height: 50px;
+	background-position: -40px 16px;
+}
+
+.web2{
+	width: 39px;
+	height: 50px;
+	background-position: -80px 16px;
+}
+
+.web3{
+	width: 39px;
+	height: 50px;
+	background-position: -116px 16px;
+}
+
+.web4{
+	width: 39px;
+	height: 50px;
+	background-position: -157px  16px;
+}
+
+
+
+#services div ul li h3{
+	text-align: left;
+	padding-top: 18px;
+	font: 12px/1.2 arial;
+
+	}
+
+
+
+#menu ul li a.current,#menu ul li a:hover {
+	color: #48DAD1;
+
+}
+
+#services div a
+{
+	color:#A5A5A2;
+	text-decoration: underline;
+}
+
+ #footer p
+ {
+	color:#A5A5A2;
+}
